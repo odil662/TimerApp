@@ -1,0 +1,76 @@
+.edit-page__timer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 220px;
+  width: 220px;
+  border-right: 6px solid #29A354;
+  border-radius: 50%;
+}
+
+.edit-page__link {
+  color: green;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  text-decoration: underline;
+}
+
+.edit-page__clock {
+  color: white;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  text-align: left;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.edit-page__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 24px 0;
+}
+
+.edit-page__pause {
+  border-radius: 32px;
+  box-shadow: inset -4px -6px 5.5px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(249, 137, 28);
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.edit-page__cancel {
+  border-radius: 32px;
+  box-shadow: inset -4px -6px 5.5px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(117, 118, 119);
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.progress-bar {
+    position: relative;
+    width: 100px;
+  }
+  
+  svg {
+    display: block;
+    margin: auto;
+}
+
+circle {
+    transition: stroke-dashoffset 0.5s ease; /* Плавный переход при изменении прогресса */
+}
